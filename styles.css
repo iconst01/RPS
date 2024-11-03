@@ -1,0 +1,44 @@
+body {
+  font-family: cursive, sans-serif;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(images/rock-paper-scissors-game-illustration_615845-1163.avif);
+  background-size: cover;
+  margin: 0;
+}
+input {
+  margin: 10px 0;
+  font-size: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px;
+  width: 300px;
+}
+button {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  min-width: 160px;
+  background-color: rgb(98, 158, 211);
+}
+button:hover {
+  background-color: rgb(241, 241, 4);
+}
+h1 {
+  font-size: 2.5rem;
+  color: rgb(98, 158, 211);
+}
+#result {
+  font-size: 1.5rem;
+  margin-top: 20px;
+  color: red;
+}
+.score-board {
+  color: black;
+  font-size: 20px;
+  background-color: rgb(98, 158, 211);
+}
